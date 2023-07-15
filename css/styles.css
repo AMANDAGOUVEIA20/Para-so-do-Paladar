@@ -1,0 +1,184 @@
+/* geral */
+body, textarea {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-color: #807E2A;
+}
+
+h1, h2{
+    color: #FFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* navbar */
+.navbar-container {
+	width: 100%;
+	height: 70px;
+	background-color: #000000;
+	padding: 0 2em;
+	position: relative;
+	box-sizing: border-box;
+}
+.logo {
+    width: 50px;
+	margin-top: 10px;
+    padding-left: 169px;
+}
+
+nav {
+	position: relative;
+}
+
+.navbar-items {
+	list-style: none;
+	position: absolute;
+	display: inline-block;
+	height: 80px;
+	line-height: 75px;
+	margin: 0;
+    right: 155px;
+}
+
+.navbar-items li {
+	display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+	margin-left: 20px;
+}
+
+.navbar-items li a {
+	color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+}
+
+.navbar-items li a:hover {
+	color: #EF7401;
+}
+/* main banner */
+
+.main-banner {
+    background-image: url("../img/banner.jpg");  
+	background-position: center;
+	background-size: cover;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 10em 0;
+	
+
+}
+
+.main-banner h1 {
+	font-size: 50px;
+}
+.main-banner h1::after{
+    content: '';
+    display: block;
+    border-bottom: 5px solid #be1d1d;
+    width: 300px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.main-banner h2{
+    font-size: 35px;
+}
+
+/*Cards*/
+
+.container-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	width: 600px;
+	height: 400px;
+	flex-shrink: 0;
+    background-color: #FFF;
+	border-radius: 38px;
+	margin-top: 30px;
+}
+
+.card-image{
+	width: 400px;
+    height: 250px;
+	background-position: center;
+    background-size: cover;
+	margin-left: 100px;
+
+}
+
+.card-1 .card-image{
+    background-image: url("../img/ravioli.jpg");
+}
+
+.card-2 .card-image{
+    background-image: url("../img/lasanha.jpg");
+}
+
+.card-3 .card-image{
+    background-image: url("../img/tiramisu.jpg");
+}
+
+.card h3, h4 {
+	text-align: center;
+	font-family: Arial;
+	color: #3e3e3e;
+}
+
+.card h4{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.btn{
+    display: block;
+    background-color: #BB3636;
+    color: #fff;
+	width: 150px;
+    margin-top: 20px;
+	margin-left: 206px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+	text-align: center;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #BB3636;
+    border-color: #BB3636;
+}
+
+footer{
+	width: 100%;
+	height: 20px;
+	background-color: #000000;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
